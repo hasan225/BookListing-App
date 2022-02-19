@@ -1,0 +1,32 @@
+tr.result {
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: space-around; */
+    width: 90%;
+    /* margin: auto; */
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding: 12px 0;
+}
+
+table.table {
+    width: 100%;
+    margin: 50px 0;
+}
+
+tr.result th {
+    font-size: 19px;
+}
+thead.result {
+    /* background: red; */
+    border: 1px solid #7a2a2a;
+    /* padding: 30px 0; */
+    /* margin: 30px; */
+}
+
+table.table th {
+    padding: 12px;
+    border-top: 1px solid red;
+    color: rgb(255, 255, 255);
+    /* background: red; */
+}
