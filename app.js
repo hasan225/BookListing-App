@@ -32,15 +32,18 @@ btn.addEventListener("click",(e)=>{
         const newTitle=document.createElement('td');
         newTitle.innerHTML=title.value;
         newRow.appendChild(newTitle);
+        title.value='';
 
         const newAuthor=document.createElement('td');
         newAuthor.innerHTML=author.value;
         newRow.appendChild(newAuthor);
+        author.value='';
 
 
         const newYear=document.createElement('td');
         newYear.innerHTML=year.value;
         newRow.appendChild(newYear);
+        year.value='';
          
         bookList.appendChild(newRow)
 
